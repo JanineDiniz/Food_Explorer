@@ -2,12 +2,14 @@ import styled from "styled-components"
 import { breakpoints } from "../../styles/breakpoints"
 
 export const Container = styled.footer`
+  grid-area: footer;
   width: 100%;
   height: 4.75rem;
 
   display: flex;
   align-items: center;
   justify-content: space-around;
+
 
   background-color: ${({ theme }) => theme.colors.dark_600};
 

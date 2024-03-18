@@ -3,7 +3,6 @@ import {breakpoints} from '../../styles/breakpoints'
 
 export const Container = styled.header`
   grid-area: header;
-
   height: 6.5rem;
   width: 100%;
 

@@ -8,13 +8,14 @@ import theme from './styles/theme'
 import {SignIn} from './pages/SignIn'
 import { SignUp } from './pages/SignUp'
 import {Home} from './pages/Home'
-import { Slider } from './components/Slider'
+import { New } from './pages/New'
+import { Edit } from './pages/Edit'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles/>
-      <Home />
+      <Edit />
     </ThemeProvider>
   </React.StrictMode>,
 )

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.button`
   width: 100%;
   background-color: ${({theme}) => theme.colors.tomato_100};
+
   color: ${({theme}) => theme.colors.light_100};
 
   height: 3rem;

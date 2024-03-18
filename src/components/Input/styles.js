@@ -4,31 +4,31 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: .5rem;
+  font-family: "Roboto", sans-serif;
+  color: ${({theme}) => theme.colors.light_400};
 
   >span{
     font-size: 1rem;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
   }
 `
 
 export const InputArea = styled.div`
-  width: 21.75rem;
+  width: 100%; //ajustar o SignIn e SignUp
   display: flex;
   align-items: center;
 
-  padding: 0 20px;
+  padding: 0 1rem;
   border-radius: 10px;
-  gap: 14px;
+  gap: .875rem;
   
-  background-color: ${({theme}) => theme.colors.dark_900};;
-  color: ${({theme}) => theme.colors.light_100};
+  background-color: ${({theme}) => theme.colors.dark_800};;
+  color: ${({theme}) => theme.colors.light_400};
   
   >input{
     width: 100%;
     height: 3rem;
     
-    font-size: 18px;
+    font-size: 1rem;
     border: 0;
     background-color: transparent;
     color: ${({theme}) => theme.colors.light_200};

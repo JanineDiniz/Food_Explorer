@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { breakpoints } from "../../styles/breakpoints";
 
 export const Container = styled.section`
+  width: 100%;
   margin: 28px 0;
   padding: 1.5rem;
   >h2{
